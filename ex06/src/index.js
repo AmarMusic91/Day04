@@ -2,13 +2,13 @@ function main(numOne, numTwo) {
     
     var numOne;
     var numTwo;
-    var product = numOne / numTwo;
+    var myQuotient = numOne / numTwo;
 
     parseFloat (numOne);
     parseFloat (numTwo);
-    parseFloat (product);
+    parseFloat (myQuotient);
 
-    return product;
+    return myQuotient;
 
 }
     console.log(main(5.0, 2.0));
